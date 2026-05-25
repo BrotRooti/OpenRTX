@@ -178,7 +178,7 @@ static inline bool checkVpHeader(const vpHeader_t *header)
 {
     return ((header->magic == VOICE_PROMPTS_DATA_MAGIC)
             && (header->version == VOICE_PROMPTS_DATA_VERSION)
-            && (header ->numPrompts == VOICE_PROMPTS_DATA_NUMBER))
+            && (header->numPrompts == VOICE_PROMPTS_DATA_NUMBER));
 }
 
 /**
